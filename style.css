@@ -1,0 +1,276 @@
+:root{
+    --accentcolor:#3664D8;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+div{
+    /* box-sizing: border-box; */
+}
+p, ul, li, h1, h2, h3 {
+    margin:0;
+    padding: 0;
+}
+.hidden-title{
+    display:hidden;
+    font-size: 0;
+}
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+.header{
+    
+    display: block;
+
+ margin: 0 auto;
+width: 1460px;
+padding-left: 20px;
+padding-right: 20px;
+outline: 2px solid blue;
+/* height: 100vw; */
+}
+
+.conteiner{
+    display: block;
+    margin: 0 auto;
+    outline: 1px solid red;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    width:1300px;
+    /* background-color: #fff; */
+    /* outline: 1px solid red; */
+}
+.hederline{
+
+display: flex;
+    
+align-items: center;
+    height:80px;
+    background: #3664D8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   background-color: var(--accentcolor);
+
+}
+.text-logo{
+   display: flex; 
+align-items: flex-end;
+   margin-right: 25px;
+   margin-left: 170px;
+}
+.hederlink{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+font-size: 20.7133px;
+line-height: 25px;
+
+color: #FFFFFF;
+}
+
+.rectangle2{
+
+
+width: 11.84px;
+height: 20.71px;
+left: 205.16px;
+top: 30.37px;
+
+background: #FFFFFF;
+border-radius: 11.8362px;
+}
+.rectangle1{
+
+width: 11.84px;
+height: 11.84px;
+left: 188px;
+top: 39.24px;
+margin-right: 5px;
+background: #FFFFFF;
+border-radius: 11.8362px;
+}
+.title-gr5 {
+    margin-top: 60px;
+    font-weight: 700;
+    margin-left: 150px;
+font-size: 58px;
+line-height: 110%;
+width: 463px;
+
+/* or 64px */
+
+display: flex;
+align-items: center;
+
+/* 2 */
+
+color: #212353;
+
+}
+.group5 {
+    display:flex;
+    width: 1230px;
+    height: 476px;
+    margin-left: 100px;
+   border-radius: 100px;
+   
+background: #FFFFFF;
+box-shadow: 0px 2.84946px 28.4946px rgba(0, 0, 0, 0.25);
+border-radius: 35.6183px;
+
+   width: 1230px;
+    height: 476px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gr4 {
+    display:block;
+    width: 486px;
+    /* height: 265px; */
+   border-radius: 100px;
+   padding-top: 27px;
+   padding-left: 37px;
+   padding-bottom: 40px;
+   margin-top: auto;
+background: #FFFFFF;
+box-shadow: 0px 2.84946px 28.4946px rgba(0, 0, 0, 0.25);
+border-radius: 35.6183px;
+
+}
+.tumba-gr4{
+   display: flex;
+    /* width:115px;
+    height: 115px;
+   border-radius: 50%;
+   outline: 1px solid red; */ */
+
+   
+}
+
+.gr4-foto {
+    display:block;
+    width:115px;
+    height: 115px;
+   border-radius: 50%;   overflow: hidden;
+   background: #C4C4C4;
+   margin-right: 30px;
+}
+.gr4-name {
+    display:block;
+    margin-top: 30px;
+    font-style: normal;
+font-weight: 600;
+font-size: 20.392px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #212353;
+}
+.gr4-prof {
+    display:block;
+    font-style: normal;
+font-weight: 400;
+font-size: 20.392px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #212353;
+}
+.gr4-about {
+    display: block;
+    width:310px;
+    font-style: italic;
+font-weight: 300;
+font-size: 18.5382px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #212353;
+margin-left: 100px;
+margin-bottom: 0;
+}
+.screens {
+}
+.title-screens {
+    font-weight: 300;
+font-size: 34px;
+line-height: 110%;
+/* or 37px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #212353;
+
+}
+
+.price__tumba{
+       display: block;
+    width: 562px;
+    height: 382px;
+    
+background: #3664D8;
+box-shadow: 0px 4px 28.49px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+margin-bottom: 0;
+padding-left: 60px;
+padding-right: 60px;
+}
+.screens-subtitle {
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 110%;
+    /* or 37px */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FBFBFB;
+}
+.price__list {
+  
+}
+.price__item {
+    display: block;
+    background: #FFFFFF;
+border-radius: 19.8652px;
+width: 250px;px;
+    height: 120px;
+   
+}
+.prict-job {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.2434px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    letter-spacing: 0.206929px;
+    
+    color: #12121F;
+}
+.price-cost {
+    font-weight: 600;
+font-size: 23.176px;
+line-height: 28px;
+/* identical to box height */
+
+letter-spacing: 0.206929px;
+
+color: #12121F;
+}
+.job-about {
+    font-style: normal;
+font-weight: 400;
+font-size: 11.588px;
+line-height: 14px;
+
+color: #AFAFBD;
+}
